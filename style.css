@@ -1,6 +1,5 @@
 .center {
   margin: auto;
-  width: 60%;
   padding: 10px;
 }
 
@@ -64,4 +63,119 @@ input:checked + .slider:before {
 
 .slider.round:before {
   border-radius: 50%;
+}
+
+.miniature-videos{
+  width:230px; 
+  height:120px; 
+  position: relative;
+}
+
+.duration-miniature{
+  position:absolute; 
+  top: 80%; 
+  left:75%; 
+  background-color:black; 
+  color:white;  
+  z-index:2; 
+  opacity: 0.8;
+}
+
+.top-margin-white{
+  background-color:white; 
+  margin-top:10px;
+}
+
+.icon-loading{
+  text-align:center; 
+  height:125px;
+}
+
+.nav-styles{
+  background-color:white; 
+  padding:10px;
+}
+
+.youtube-icon-size{
+  width:100px; 
+  height:30px;
+}
+
+.user-image-size{
+  width:32px; 
+  height:32px;
+}
+
+.publish-styles{
+  margin-top:10px; 
+  font-weight:700;
+}
+
+.hr-styles{
+  margin:0px; 
+  border-color:lightgrey;
+}
+
+.show-more-styles{
+  text-align:center; 
+  color:rgb(96, 96, 96); 
+  font-weight: 700;
+}
+
+.loading-styles{
+  width:20px; 
+  height:20px;
+}
+
+.aside-styles{
+  background-color: white; 
+  padding: 5px;
+}
+
+@media only screen and (max-width: 990px) {
+  .aside-styles{
+    background-color: white; 
+    padding: 5px;
+    margin-top:15px;
+  }
+  
+  .section-padding{
+    padding-right: 15px !important;
+  }
+}
+
+.section-padding{
+  padding-right: 25px;
+}
+
+
+
+.miniature-styles{
+  width:100%;
+  height:120px; 
+  z-index:1;
+}
+
+.miniature-user{
+  color:rgb(96, 96, 96); 
+  font-size:11px; 
+  font-weight:400; 
+  margin:0px;
+}
+
+.miniature-views{
+  color:rgb(96, 96, 96); 
+  font-size:11px; 
+  font-weight:400;
+}
+
+.views-styles{
+  margin-bottom: 0px; 
+  margin-top: 35px;
+}
+
+.miniature-info{
+  width: 160px;
+    padding-right: 0px;
+    height: 100px;
 }
