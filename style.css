@@ -38,7 +38,7 @@
   height: 15px;
   width: 15px;
   left: 2px;
-  bottom: 0px;
+  bottom: 0;
   background-color: white;
   -webkit-transition: 0.4s;
   -moz-transition: 0.4s;
@@ -146,16 +146,14 @@ input:checked + .slider:before {
     margin-top: 15px;
   }
 
-  .no-border:active {
-  }
 
-  #section-padding {
+  .section-padding {
     padding-right: 15px;
   }
 }
 
 @media (min-width: 992px) {
-  #section-padding {
+  .section-padding {
     padding-right: 25px;
   }
 }
@@ -227,7 +225,8 @@ input:checked + .slider:before {
 .user-photo {
   width: 50px;
   height: 50px;
-  border: 1px solid;
+  border-style: solid;
+  border-width: 1px;
   border-color: grey;
   margin: 3px;
 }
@@ -286,7 +285,7 @@ input:checked + .slider:before {
 }
 
 .margin-zero {
-  margin: 0px;
+  margin: 0;
 }
 
 .margin-three {
