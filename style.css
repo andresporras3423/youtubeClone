@@ -145,6 +145,9 @@ input:checked + .slider:before {
     margin-top: 15px;
   }
 
+  .no-border:active{
+  }
+
   #section-padding {
     padding-right: 15px;
   }
