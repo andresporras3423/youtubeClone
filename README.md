@@ -6,8 +6,6 @@
 
 ## Built with
 
-- Bootstrap
-- JQuery
 - Visual Studio Code
 
 ## Live Demo
