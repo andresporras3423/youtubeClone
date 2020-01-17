@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Youtube Clone</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="http://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body class="color-lightgrey">
+    <header class="header-U2B">
+      <nav class="navbar-U2B">
+        <div class="logo-U2B flex-content">
+          <button class="btn btn-light icon-navbar flex-xs-1">
+            <img
+              src="https://img.icons8.com/ios-filled/26/000000/menu.png"
+              alt="menu"
+            />
+          </button>
+          <img
+            alt="youtube icon"
+            src="https://archive.ph/Bss88/51a3832e6af6792add876216da444db23a4bea96.png"
+            class="youtube-icon-size"
+          />
+        </div>
+        <div class="shortcuts-U2B flex-content">
+          <button class="btn btn-light face-icon flex-xs-1">
+            <img
+              src="https://img.icons8.com/android/24/000000/video-call.png"
+              alt="video-call"
+            />
+          </button>
+          <button class="btn btn-light icon-navbar flex-xs-1">
+            <img
+              src="https://img.icons8.com/material-sharp/24/000000/bell.png"
+              alt="bell"
+            />
+          </button>
+          <button class="btn btn-light icon-navbar flex-xs-1">
+            <img
+              src="https://img.icons8.com/material-sharp/24/000000/upload.png"
+              alt="upload"
+            />
+          </button>
+        </div>
+        <div class="user-avatar-U2B">
+          <span class="btn btn-light span-face-user" style="padding-top: 11px;">
+            <img
+              src="https://img.icons8.com/wired/24/000000/user.png"
+              alt="user"
+            />
+          </span>
+        </div>
+        <div class="searchbar-U2B">
+          <form class="flex-content" style="padding-top: 8px;">
+            <input
+              class="form-control flex-xs-11"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-gray flex-xs-1">
+              <img
+                src="https://img.icons8.com/android/16/000000/search.png"
+                alt="search"
+              />
+            </button>
+          </form>
+        </div>
+      </nav>
+    </header>
+
+    <div class="body-U2B">
+      <div class="container-U2B">
+        <div class="current-video-container-U2B">
+          <div class="video-section">
+            <iframe
+              class="size-video background-color-white"
+              src="https://www.youtube.com/embed/SWYqp7iY_Tc"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <section class="video-title background-color-white title-content">
+            <div class="flex-content">
+              <h3 class="flex-xs-12">
+                Git & GitHub Crash Course For Beginners
+              </h3>
+            </div>
+
+            <div class="flex-content">
+              <div class="flex-xs-12">
+                <div class="flex-content">
+                  <div class="flex-xs-1">
+                    <img
+                      alt="user photo"
+                      src="https://img.icons8.com/offices/30/000000/user.png"
+                      class="user-photo"
+                    />
+                  </div>
+
+                  <div class="flex-xs-5">
+                    <p class="margin-zero">Traversy Media</p>
+                    <div>
+                      <button class="suscribe-button">
+                        suscribe</button
+                      ><label class="label-followers">199</label>
+                    </div>
+                  </div>
+                  <div class="flex-xs-6 text-right">
+                    <h4 class="views-styles">50,016 views</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="flex-xs-12">
+              <hr class="line-styles" />
+            </div>
+
+            <div class="flex-xs-12">
+              <div class="flex-content">
+                <div class="flex-xs-5">
+                  <button class="btn share-button" aria-hidden="true">
+                    <img
+                      src="https://img.icons8.com/android/20/000000/forward-arrow.png"
+                      alt="forward"
+                    />
+                    <span>Share</span>
+                  </button>
+                </div>
+                <div class="flex-xs-3"></div>
+                <div class="flex-xs-4 text-right">
+                  <button class="btn share-button">
+                    <img
+                      src="https://img.icons8.com/wired/20/000000/facebook-like.png"
+                      alt="like"
+                    />
+                    <span>470</span>
+                  </button>
+                  <button class="btn share-button">
+                    <img
+                      src="https://img.icons8.com/wired/20/000000/thumbs-down.png"
+                      alt="dislike"
+                    />
+                    <span>18</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <article
+            class="video-description background-color-white flex-content"
+          >
+            <div class="flex-xs-12 description-justify">
+              <h4 class="publish-styles">Published on Feb 27, 2014</h4>
+              <p>
+                How do you contribute to open source? In this video, I'll
+                describe the easiest way to make a simple contribution to an
+                open source project -- without using the command line, a text
+                editor, "forking a repo", or even touching Git outside of
+                Github. I'll also describe what kinds of contributions open
+                source software projects are typically looking for. As an
+                example, I use submitting a student solution to a web
+                development exercise from The Odin Project, a free online
+                curriculum for learning web development with Ruby on Rails. You
+                can find more information about that project at
+                http://theodinproject.com.
+              </p>
+              <hr class="hr-styles flex-content" />
+              <div class="flex-xs-12 show-more-styles">SHOW MORE</div>
+            </div>
+          </article>
+
+          <article class="video-comments background-color-white icon-loading ">
+            <div class="text-left flex-content">
+              <h4 class="publish-styles flex-xs-12 ">Comments</h4>
+            </div>
+            <div class="flex-content">
+              <div class="padding-fifteen flex-xs-12">
+                <img
+                  alt="loading"
+                  src="https://gifimage.net/wp-content/uploads/2017/09/ajax-loading-gif-transparent-background-2.gif"
+                  class="loading-styles"
+                />Loading...
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <aside class="recommended-video-container-U2B background-color-white">
+          <div
+            class="recommended-video flex-content border-bottom"
+            style="margin-top: 30px;"
+          >
+            <div
+              class="flex-xs-5 text-left"
+              style="margin-top: -35px; margin-left: 10px;"
+            >
+              <h5>Up next</h5>
+            </div>
+            <div
+              class="flex-xs-7 text-right"
+              style="margin-top: -11px; margin-right: 10px;"
+            >
+              <span class="font-fifteen display-block">Autoplay</span>
+              <span class="glyphicon glyphicon-info-sign display-block"></span>
+
+              <label class="switch display-block">
+                <input type="checkbox" id="customSwitch1" />
+                <span class="slider slider-round"></span>
+              </label>
+            </div>
+          </div>
+          <div class="recommended-video flex-content border-bottom">
+            <div class="flex-xs-7">
+              <div class="miniature-videos">
+                <label class="duration-miniature">21:47</label>
+                <img
+                  alt="udemy"
+                  src="https://i.udemycdn.com/course/750x422/2187946_3a00_3.jpg"
+                  class="miniature-styles"
+                />
+              </div>
+            </div>
+            <div class="flex-xs-5 miniature-info">
+              <div class="flex-content">
+                <h5 class="flex-xs-12 bold">Javascript tutorial</h5>
+              </div>
+              <div class="flex-content">
+                <label class="flex-xs-12 miniature-user"
+                  >The Odin Project</label
+                >
+              </div>
+              <div class="flex-content">
+                <label class="flex-xs-12 miniature-views">29,285 Views</label>
+              </div>
+            </div>
+          </div>
+          <div class="recommended-video flex-content border-bottom">
+            <div class="flex-xs-7">
+              <div class="miniature-videos">
+                <label class="duration-miniature">18:25</label>
+                <img
+                  alt="tutorial point"
+                  src="https://www.tutorialspoint.com/html/images/html-mini-logo.jpg"
+                  class="miniature-styles"
+                />
+              </div>
+            </div>
+            <div class="flex-xs-5 miniature-info">
+              <div class="flex-content">
+                <h5 class="flex-xs-12 bold">HTML 5 tutorial</h5>
+              </div>
+              <div class="flex-content">
+                <label class="flex-xs-12 miniature-user">Microverse</label>
+              </div>
+              <div class="flex-content">
+                <label class="flex-xs-12 miniature-views">125,312 Views</label>
+              </div>
+            </div>
+          </div>
+          <div class="recommended-video flex-content border-bottom">
+            <div class="flex-xs-7">
+              <div class="miniature-videos">
+                <label class="duration-miniature">22:36</label>
+                <img
+                  alt="css tutorial"
+                  src="https://i.ytimg.com/vi/1Rs2ND1ryYc/maxresdefault.jpg"
+                  class="miniature-styles"
+                />
+              </div>
+            </div>
+            <div class="flex-xs-5 miniature-info">
+              <div class="flex-content">
+                <h5 class="flex-xs-12 bold">CSS tutorial</h5>
+              </div>
+              <div class="flex-content">
+                <label class="flex-xs-12 miniature-user">Microsoft</label>
+              </div>
+              <div class="flex-content">
+                <label class="flex-xs-12 miniature-views">19,376 Views</label>
+              </div>
+            </div>
+          </div>
+          <div class="recommended-video flex-content border-bottom">
+            <div class="flex-xs-7">
+              <div class="miniature-videos">
+                <label class="duration-miniature">17:52</label>
+                <img
+                  alt="ruby tutorial"
+                  src="https://www.tutorialspoint.com/ruby/images/ruby-mini-logo.jpg"
+                  class="miniature-styles"
+                />
+              </div>
+            </div>
+            <div class="flex-xs-5 miniature-info">
+              <div class="flex-content">
+                <h5 class="flex-xs-12 bold">Ruby tutorial</h5>
+              </div>
+              <div class="flex-content">
+                <label class="flex-xs-12 miniature-user">Platzi</label>
+              </div>
+              <div class="flex-content">
+                <label class="flex-xs-12 miniature-views">82,111 Views</label>
+              </div>
+            </div>
+          </div>
+          <div class="recommended-video flex-content border-bottom">
+            <div class="flex-xs-7">
+              <div class="miniature-videos">
+                <label class="duration-miniature">12:45</label>
+                <img
+                  alt="sql server tutorial"
+                  src="https://cdn.mindmajix.com/blog/images/sql-server-tutorial-230719.png"
+                  class="miniature-styles"
+                />
+              </div>
+            </div>
+            <div class="flex-xs-5 miniature-info">
+              <div class="flex-content">
+                <h5 class="flex-xs-12 bold">SQL Server tutorial</h5>
+              </div>
+              <div class="flex-content">
+                <label class="flex-xs-12 miniature-user">Coursera</label>
+              </div>
+              <div class="flex-content">
+                <label class="flex-xs-12 miniature-views">5,986 Views</label>
+              </div>
+            </div>
+          </div>
+          <div class="recommended-video flex-content border-bottom">
+            <div class="flex-xs-7">
+              <div class="miniature-videos">
+                <label class="duration-miniature">12:45</label>
+                <img
+                  alt="sql server tutorial"
+                  src="https://cdn.mindmajix.com/blog/images/sql-server-tutorial-230719.png"
+                  class="miniature-styles"
+                />
+              </div>
+            </div>
+            <div class="flex-xs-5 miniature-info">
+              <div class="flex-content">
+                <h5 class="flex-xs-12 bold">SQL Server tutorial</h5>
+              </div>
+              <div class="flex-content">
+                <label class="flex-xs-12 miniature-user">Coursera</label>
+              </div>
+              <div class="flex-content">
+                <label class="flex-xs-12 miniature-views">5,986 Views</label>
+              </div>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </body>
+</html>
