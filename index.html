@@ -15,64 +15,57 @@
   </head>
 
   <body class="color-lightgrey">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light nav-styles">
-      <div class="row">
-        <div class="col-md-2 col-xs-3 display-block">
-          <img
-            alt="youtube icon"
-            src="https://archive.ph/Bss88/51a3832e6af6792add876216da444db23a4bea96.png"
-            class="youtube-icon-size"
+    <nav class="navbar-U2B">
+      <div class="logo-U2B">
+        <img
+          alt="youtube icon"
+          src="https://archive.ph/Bss88/51a3832e6af6792add876216da444db23a4bea96.png"
+          class="youtube-icon-size"
+        />
+      </div>
+      <div class="shortcuts-U2B">
+        <button class="btn btn-light face-icon">
+          <span class="glyphicon glyphicon-facetime-video font-twenty"></span>
+        </button>
+        <button class="btn btn-light icon-navbar">
+          <span class="glyphicon glyphicon-th font-twenty"></span>
+        </button>
+        <button class="btn btn-light icon-navbar">
+          <span class="glyphicon glyphicon-upload font-twenty"></span>
+        </button>
+      </div>
+      <div class="user-avatar-U2B">
+        <span class="btn btn-light span-face-user">
+          <span class="glyphicon glyphicon-user font-twenty-five"></span>
+        </span>
+      </div>
+      <div class="searchbar-U2B">
+        <form>
+          <input
+            class="form-control"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
           />
-        </div>
-        <div class="col-md-3 col-md-push-6 col-xs-6 display-block">
-          <button class="btn btn-light face-icon">
-            <span class="glyphicon glyphicon-facetime-video font-twenty"></span>
-          </button>
-          <button class="btn btn-light icon-navbar">
-            <span class="glyphicon glyphicon-th font-twenty"></span>
-          </button>
-          <button class="btn btn-light icon-navbar">
-            <span class="glyphicon glyphicon-upload font-twenty"></span>
-          </button>
-        </div>
-        <div class="col-md-1 col-md-push-6 col-xs-3 display-block">
-          <span class="btn btn-light span-face-user">
-            <span class="glyphicon glyphicon-user font-twenty-five"></span>
-          </span>
-        </div>
-        <div class="col-md-6 col-md-pull-4 col-xs-12 display-block">
-          <div class="">
-            <form class="col-xs-12 margin-auto">
-              <div class="row">
-                <input
-                  class="form-control col-xs-10 width-eighty"
-                  type="search"
-                  placeholder="Search"
-                  aria-label="Search"
-                />
-                <a href="#" class="btn btn-default col-xs-2 width-ten"
-                  ><span class="glyphicon glyphicon-search"></span
-                ></a>
-              </div>
-            </form>
-          </div>
-        </div>
+          <a href="#" class="btn btn-default col-xs-2 width-ten"
+            ><span class="glyphicon glyphicon-search"></span
+          ></a>
+        </form>
       </div>
     </nav>
 
-    <div class="container">
-      <div class="row">
-        <div class="col-md-8 col-xs-12 section-padding">
-          <div class="row">
+    <div class="body-U2B">
+      <div class="container-U2B">
+        <div class="current-video-container-U2B">
+          <div class="video-section">
             <iframe
-              class="size-video"
+              class="size-video background-color-white"
               src="https://www.youtube.com/embed/SWYqp7iY_Tc"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen
             ></iframe>
           </div>
-
-          <section class="row top-margin-white">
+          <section class="video-title background-color-white">
             <div class="col-xs-12">
               <h3>Git & GitHub Crash Course For Beginners</h3>
             </div>
@@ -137,7 +130,7 @@
             </div>
           </section>
 
-          <article class="row top-margin-white">
+          <article class="video-description background-color-white">
             <div class="col-xs-12">
               <h4 class="publish-styles">Published on Feb 27, 2014</h4>
               <p>
@@ -158,7 +151,7 @@
             </div>
           </article>
 
-          <article class="row top-margin-white icon-loading">
+          <article class="video-comments background-color-white icon-loading">
             <div class="col-xs-12 text-left">
               <h4 class="publish-styles">Comments</h4>
             </div>
@@ -174,7 +167,7 @@
           </article>
         </div>
 
-        <aside class="col-md-4 col-xs-12 aside-styles center">
+        <aside class="recommended-video-container-U2B background-color-white">
           <div class="row">
             <div class="col-xs-5 text-left">
               <h5>Up next</h5>
@@ -190,7 +183,8 @@
             </div>
           </div>
           <hr class="margin-three" />
-          <div class="row">
+
+          <div class="recommended-video">
             <div class="col-xs-7">
               <div class="miniature-videos">
                 <label class="duration-miniature">21:47</label>
@@ -208,7 +202,7 @@
             </div>
           </div>
           <hr />
-          <div class="row">
+          <div class="recommended-video">
             <div class="col-xs-7">
               <div class="miniature-videos">
                 <label class="duration-miniature">18:25</label>
@@ -226,7 +220,7 @@
             </div>
           </div>
           <hr />
-          <div class="row">
+          <div class="recommended-video">
             <div class="col-xs-7">
               <div class="miniature-videos">
                 <label class="duration-miniature">22:36</label>
@@ -244,7 +238,7 @@
             </div>
           </div>
           <hr />
-          <div class="row">
+          <div class="recommended-video">
             <div class="col-xs-7">
               <div class="miniature-videos">
                 <label class="duration-miniature">17:52</label>
@@ -262,7 +256,7 @@
             </div>
           </div>
           <hr />
-          <div class="row">
+          <div class="recommended-video">
             <div class="col-xs-7">
               <div class="miniature-videos">
                 <label class="duration-miniature">12:45</label>
